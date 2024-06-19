@@ -1,8 +1,23 @@
+Aquí tienes el HTML actualizado con las imágenes y videos integrados en la sección de la galería:
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
     <title>El Efecto Mariposa: Pequeñas Causas, Grandes Consecuencias</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .gallery img {
+            width: 300px; /* Ajusta el tamaño de las imágenes */
+            height: auto;
+            margin: 10px;
+        }
+        iframe {
+            width: 280px; /* Ajusta el tamaño de los videos */
+            height: 158px; /* Mantiene la proporción 16:9 */
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,15 +36,26 @@
         <section id="galeria">
             <h2>Galería</h2>
             <div class="gallery">
-                <img src="mariposa_1.jpg" alt="Mariposa 1">
-                <img src="mariposa_2.jpg" alt="Mariposa 2">
-                <img src="mariposa_3.jpg" alt="Mariposa 3">
-                <img src="mariposa_4.jpg" alt="Mariposa 4">
-                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/PrimeraGuerraMundial-collague.jpg/300px-PrimeraGuerraMundial-collague.jpg" alt="Primera Guerra Mundial">
+                <img src="https://www.lavanguardia.com/files/og_thumbnail/uploads/2019/10/22/5f15f168c0104.png" alt="Gran Depresión">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtAmyttF6bGnbfLtaSIjlMy0pWzjJtTGCsWg&s" alt="Caída del Muro de Berlín">
+                <img src="https://c.files.bbci.co.uk/0537/production/_108753310_gettyimages-1339505-1.jpg" alt="Atentado del 11 de Septiembre">
+                <img src="https://www.telesurtv.net/__export/1478102415939/sites/telesur/img/multimedia/2016/01/12/primavera-arabe.jpg_1718483346.jpg" alt="Primavera Árabe">
+                <img src="https://www.gaceta.unam.mx/wp-content/uploads/2021/02/80anospenicilina003.jpg" alt="Descubrimiento de la Penicilina">
+                <img src="https://tn.com.ar/resizer/nwyePgf7GJO6m3DnLgRa1_fXIQA=/767x0/smart/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/artear/7H5KIRXT5RDPDDC43YK2DPYRKI.jpg" alt="Accidente de Chernóbil">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg/800px-Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg" alt="Invención de Internet">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwMR4U6Ifdw2YVGSKUrFWrXSqU3Ze9lvS4Lw&s" alt="Movimiento #MeToo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdq17Zn3IkCybPMojt4e-s2AlZXnZnHkHL2w&s" alt="Pandemia de COVID-19">
+                <iframe width="280" height="158" src="https://www.youtube.com/embed/uthYb8ER0_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="280" height="158" src="https://www.youtube.com/embed/wbvx3QZv_-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="280" height="158" src="https://www.youtube.com/embed/GMvvIT1pIIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </section>
     </main>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     <script src="script.js"></script>
 </body>
 </html>
+```
+
+En este código, he añadido las imágenes y los videos dentro de la sección de la galería, aplicando estilos CSS para asegurar que todas las imágenes tengan el mismo tamaño y los videos sean más pequeños.

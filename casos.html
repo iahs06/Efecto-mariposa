@@ -1,6 +1,4 @@
-Here is the updated HTML with the specified videos and images added:
 
-```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,6 +6,16 @@ Here is the updated HTML with the specified videos and images added:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Efecto Mariposa: Pequeñas Causas, Grandes Consecuencias</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .case-container img {
+            width: 300px; /* Ajusta el tamaño de las imágenes */
+            height: auto;
+        }
+        iframe {
+            width: 280px; /* Ajusta el tamaño de los videos */
+            height: 158px; /* Mantiene la proporción 16:9 */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -67,13 +75,15 @@ Here is the updated HTML with the specified videos and images added:
                 <p>La pandemia de COVID-19, que comenzó en 2019, ha tenido un impacto global sin precedentes en la salud pública, la economía y la sociedad. Este evento ha cambiado la forma en que vivimos y trabajamos, y sus consecuencias a largo plazo aún están por verse.</p>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdq17Zn3IkCybPMojt4e-s2AlZXnZnHkHL2w&s" alt="Pandemia de COVID-19">
             </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/uthYb8ER0_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wbvx3QZv_-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GMvvIT1pIIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="280" height="158" src="https://www.youtube.com/embed/uthYb8ER0_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="280" height="158" src="https://www.youtube.com/embed/wbvx3QZv_-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="280" height="158" src="https://www.youtube.com/embed/GMvvIT1pIIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
     </main>
 
     <script src="script.js"></script>
 </body>
 </html>
-```
+
+
+In this code, I have added inline CSS to adjust the size of the images and the videos. The images are set to a width of 300px and the videos are set to a width of 280px with a height of 158px to maintain the 16:9
